@@ -1,0 +1,281 @@
+{
+  "data": {
+    "edges": [
+      {
+        "id": "34431",
+        "name": "C:5/P:0.0",
+        "number_of_proteins": 5,
+        "presence_status": "New",
+        "source": "13857",
+        "target": "960"
+      },
+      {
+        "id": "24606",
+        "name": "C:18/P:0.0",
+        "number_of_proteins": 18,
+        "presence_status": "Found",
+        "source": "4086",
+        "target": "960"
+      },
+      {
+        "id": "17868",
+        "name": "C:8/P:0.0",
+        "number_of_proteins": 8,
+        "presence_status": "New",
+        "source": "960",
+        "target": "13344"
+      },
+      {
+        "id": "17865",
+        "name": "C:10/P:0.0",
+        "number_of_proteins": 10,
+        "presence_status": "Found",
+        "source": "960",
+        "target": "12867"
+      },
+      {
+        "id": "17862",
+        "name": "C:8/P:0.0",
+        "number_of_proteins": 8,
+        "presence_status": "New",
+        "source": "960",
+        "target": "9561"
+      },
+      {
+        "id": "17859",
+        "name": "C:82/P:0.0",
+        "number_of_proteins": 82,
+        "presence_status": "New",
+        "source": "960",
+        "target": "12000"
+      },
+      {
+        "id": "17856",
+        "name": "C:6/P:0.0",
+        "number_of_proteins": 6,
+        "presence_status": "New",
+        "source": "960",
+        "target": "11736"
+      },
+      {
+        "id": "17853",
+        "name": "C:33/P:0.0",
+        "number_of_proteins": 33,
+        "presence_status": "New",
+        "source": "960",
+        "target": "11016"
+      },
+      {
+        "id": "17850",
+        "name": "C:12/P:0.0",
+        "number_of_proteins": 12,
+        "presence_status": "New",
+        "source": "960",
+        "target": "10473"
+      },
+      {
+        "id": "17847",
+        "name": "C:6/P:0.0",
+        "number_of_proteins": 6,
+        "presence_status": "New",
+        "source": "960",
+        "target": "10164"
+      },
+      {
+        "id": "17844",
+        "name": "C:8/P:0.0",
+        "number_of_proteins": 8,
+        "presence_status": "New",
+        "source": "960",
+        "target": "8856"
+      },
+      {
+        "id": "17841",
+        "name": "C:8/P:0.0",
+        "number_of_proteins": 8,
+        "presence_status": "New",
+        "source": "960",
+        "target": "8664"
+      },
+      {
+        "id": "17838",
+        "name": "C:43/P:0.0",
+        "number_of_proteins": 43,
+        "presence_status": "Found",
+        "source": "960",
+        "target": "7914"
+      },
+      {
+        "id": "17835",
+        "name": "C:28/P:0.0",
+        "number_of_proteins": 28,
+        "presence_status": "Found",
+        "source": "960",
+        "target": "6657"
+      },
+      {
+        "id": "17832",
+        "name": "C:6/P:0.0",
+        "number_of_proteins": 6,
+        "presence_status": "New",
+        "source": "960",
+        "target": "5826"
+      },
+      {
+        "id": "17829",
+        "name": "C:31/P:0.0",
+        "number_of_proteins": 31,
+        "presence_status": "New",
+        "source": "960",
+        "target": "5700"
+      },
+      {
+        "id": "17826",
+        "name": "C:71/P:0.0",
+        "number_of_proteins": 71,
+        "presence_status": "New",
+        "source": "960",
+        "target": "5010"
+      },
+      {
+        "id": "17823",
+        "name": "C:27/P:0.0",
+        "number_of_proteins": 27,
+        "presence_status": "New",
+        "source": "960",
+        "target": "4011"
+      },
+      {
+        "id": "15459",
+        "name": "C:15/P:0.0",
+        "number_of_proteins": 15,
+        "presence_status": "Found",
+        "source": "315",
+        "target": "960"
+      }
+    ],
+    "neighbors": [
+      {
+        "id": "13857",
+        "name": "IQ_SEC7_PH\n22 proteins\n109-233-117-109",
+        "number_of_proteins": 22,
+        "pfam_accession": "PF16453"
+      },
+      {
+        "id": "13344",
+        "name": "DUF2103\n40 proteins\n87-199-130-107",
+        "number_of_proteins": 40,
+        "pfam_accession": "PF09876"
+      },
+      {
+        "id": "12867",
+        "name": "DUF4649\n333 proteins\n73-597-75-73",
+        "number_of_proteins": 333,
+        "pfam_accession": "PF15507"
+      },
+      {
+        "id": "12000",
+        "name": "UPF0128\n82 proteins\n102-107-104-107",
+        "number_of_proteins": 82,
+        "pfam_accession": "PF03673"
+      },
+      {
+        "id": "11736",
+        "name": "DUF6468\n64 proteins\n84-628-229-136",
+        "number_of_proteins": 64,
+        "pfam_accession": "PF20072"
+      },
+      {
+        "id": "11016",
+        "name": "ICAM_N\n33 proteins\n101-124-110-110",
+        "number_of_proteins": 33,
+        "pfam_accession": "PF03921"
+      },
+      {
+        "id": "10473",
+        "name": "DDOST_48kD\n14 proteins\n97-735-159-107",
+        "number_of_proteins": 14,
+        "pfam_accession": "PF03345"
+      },
+      {
+        "id": "10164",
+        "name": "Peptidase_C107\n8 proteins\n85-505-149-101",
+        "number_of_proteins": 8,
+        "pfam_accession": "PF17222"
+      },
+      {
+        "id": "9561",
+        "name": "YqgQ-like\n17 proteins\n73-493-126-109",
+        "number_of_proteins": 17,
+        "pfam_accession": "PF06014"
+      },
+      {
+        "id": "8856",
+        "name": "Hanta_Gn-B\n9 proteins\n102-109-108-109",
+        "number_of_proteins": 9,
+        "pfam_accession": "PF20679"
+      },
+      {
+        "id": "8664",
+        "name": "DUF4911\n12 proteins\n109-460-199-109",
+        "number_of_proteins": 12,
+        "pfam_accession": "PF16256"
+      },
+      {
+        "id": "7914",
+        "name": "TCAD7\n48 proteins\n76-271-116-114",
+        "number_of_proteins": 48,
+        "pfam_accession": "PF19973"
+      },
+      {
+        "id": "6657",
+        "name": "DUF4891\n84 proteins\n57-122-76-57",
+        "number_of_proteins": 84,
+        "pfam_accession": "PF16232"
+      },
+      {
+        "id": "5826",
+        "name": "CAP_assoc_N\n50 proteins\n92-489-239-193",
+        "number_of_proteins": 50,
+        "pfam_accession": "PF14504"
+      },
+      {
+        "id": "5700",
+        "name": "Baculo_19\n43 proteins\n101-276-115-113",
+        "number_of_proteins": 43,
+        "pfam_accession": "PF04798"
+      },
+      {
+        "id": "5010",
+        "name": "DUF4780\n102 proteins\n51-117-94-101",
+        "number_of_proteins": 102,
+        "pfam_accession": "PF16012"
+      },
+      {
+        "id": "4086",
+        "name": "PaaX_M\n6406 proteins\n67-411-109-110",
+        "number_of_proteins": 6406,
+        "pfam_accession": "PF20803"
+      },
+      {
+        "id": "4011",
+        "name": "SpoIVA_C\n40 proteins\n79-297-110-95",
+        "number_of_proteins": 40,
+        "pfam_accession": "PF20439"
+      },
+      {
+        "id": "315",
+        "name": "Cas_Cas1\n85464 proteins\n42-1634-341-306",
+        "number_of_proteins": 85464,
+        "pfam_accession": "PF01867"
+      }
+    ],
+    "node": {
+      "id": "960",
+      "name": "CRISPR_Cas2\n32582 proteins\n46-578-117-112",
+      "number_of_proteins": 32582,
+      "pfam_accession": "PF09827"
+    }
+  },
+  "status": "success"
+}

@@ -1,0 +1,56 @@
+{
+  "data": {
+    "avg_repeat_len": 36,
+    "avg_spacer_len": 30,
+    "items": [
+      {
+        "position": 67,
+        "repeat": "GTTGTATATCATTATAATCCTACATCAAACCGCAAC(36bp)",
+        "spacer": "CGGCTAATCACGCCCGAGGAGGCGGAGGCA(30bp)"
+      },
+      {
+        "position": 133,
+        "repeat": "GTTGTATATCATTATAATCCTACATCAAACCGCAAC(36bp)",
+        "spacer": "ACGGAACAGTTGCCTATTCTAATGGAGTAG(30bp)"
+      },
+      {
+        "position": 199,
+        "repeat": "GTTGTATATCATTATAATCCTACATCAAACCGCAAC(36bp)",
+        "spacer": "GATGTCGAAGCGGCAGCGACAAAGTATCGG(30bp)"
+      },
+      {
+        "position": 265,
+        "repeat": "GTTGTATATCATTATAATCCTACATCAAACCGCAAC(36bp)",
+        "spacer": "ACAGGCTGCATAATAGGCATTTGCTGCATT(30bp)"
+      },
+      {
+        "position": 331,
+        "repeat": "GTTGTATATCATTATAATCCTACATCAAACCGCAAC(36bp)",
+        "spacer": "AGCGAAGTGGAGAGTATCAAGAGCTTCCTA(30bp)"
+      },
+      {
+        "position": 397,
+        "repeat": "GTTGTATATCATTATAATCCTACATCAAACCGCAAC(36bp)",
+        "spacer": "CAGCGGTCTTGAATGGCCTTGATGTCTGCA(30bp)"
+      },
+      {
+        "position": 463,
+        "repeat": "GTTGTATATCATTATAATCCTACATCAAACCGCAAC(36bp)",
+        "spacer": "TTGAAATTGTACAGGGAGTAAAATTGTACC(30bp)"
+      },
+      {
+        "position": 529,
+        "repeat": "GTTGTATATCATTATAATCCTACATCAAACCGCAAC(36bp)",
+        "spacer": "AGCCTGCACCATCTGTTGCGAAAGGCCGTA(30bp)"
+      },
+      {
+        "position": 595,
+        "repeat": "GTTGTATATCATTATAATCCTACATCAAACCGCAAC(36bp)",
+        "spacer": ""
+      }
+    ],
+    "name": "DCCY01000041.1__49864_50493",
+    "repeat_count": 9
+  },
+  "status": "success"
+}

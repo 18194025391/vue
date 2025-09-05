@@ -105,7 +105,6 @@ import { ref, onMounted, watch } from 'vue';
 import { Network, DataSet } from 'vue-vis-network';
 import { useRoute } from 'vue-router/composables'
 import copy from 'copy-to-clipboard';
-import request from '@/utils/request'
 import { Message } from 'element-ui';
 
 const route = useRoute();
@@ -225,9 +224,10 @@ const handleSelectChange = async (val) => {
 // 获取网络数据
 const fetchGraphData = async (nodeId) => {
   try {
-    const response = await request.get('/load_data/' + nodeId);
+    const response = await fetch('/sub_960.json');
+    const data = await response.json();
     openedNodes.add(nodeId);
-    return response.data.data;
+    return data.data;
   } catch (error) {
     console.error('数据获取失败:', error);
     Message.error({
@@ -238,13 +238,12 @@ const fetchGraphData = async (nodeId) => {
   }
 }
 
-const fetchProteinData = async (proteinIds) => {
+const fetchProteinData = async () => {
   try {
-    const response = await request.post('/load_data/batch', {
-      ids: Array.from(proteinIds)
-    });
+    const response = await fetch('/batch_960.json');
+    const data = await response.json();
     // 遍历键值对并添加到Map
-    Object.entries(response.data.data).forEach(([key, value]) => {
+    Object.entries(data.data).forEach(([key, value]) => {
       proteinIdMap.set(key, value); 
     });
   } catch (error) {
@@ -457,13 +456,10 @@ const renderMolstarPDB = async (proteinId) => {
   if(pdbCache.has(proteinId)) {
     blob = pdbCache.get(proteinId);
   }else{
-    const response = await request.get('/pdb', {
-      params: {
-        id: proteinId,
-      }
-    });
-    if(response.data.status == 'success' && response.data.data){ //pdb文件可能为0kb
-      const pdbData = response.data.data;
+    const response = await fetch('/pdb_960.json');
+    const data = await response.json();
+    if(data.status == 'success' && data.data){ //pdb文件可能为0kb
+      const pdbData = data.data;
       blob = new Blob([pdbData]);
       pdbCache.set(proteinId, blob);
     }
@@ -505,15 +501,11 @@ const fetchRepeat = async (protein) =>{
     repeatLoading.value = false;
     return;
   }
-  const proteinId = protein.split('_#')[0];
   try {
-    const response = await request.get('/repeat', {
-      params: {
-        id: proteinId,
-      }
-    });
-    if(response.data.status == 'success'){
-      const repeatData = response.data.data;
+    const response = await fetch('/repeat_960.json');
+    const data = await response.json();
+    if(data.status == 'success'){
+      const repeatData = data.data;
       if(repeatData){
         repeatTable.value = repeatData.items;
         const info = {
@@ -546,14 +538,11 @@ const getEdgeColor = (status) => {
   }
 }
 
-const copySequence = async (protein_id) => {
+const copySequence = async () => {
   try {
-    const response = await request.get('/sequence', {
-      params: {
-        id: protein_id,
-      }
-    });
-    copy(response.data.data);
+    const response = await fetch('/seq_960.json');
+    const data = await response.json();
+    copy(data.data);
     isCopied.value = true;
     setTimeout(() => {
       isCopied.value = false;
@@ -601,12 +590,9 @@ const fetchSvg = async (proteinId) => {
     blob = svgCache.get(proteinId);
   }else {
     try {
-      const response = await request.get('/svg', {
-        params: {
-          id: proteinId,
-        }
-      });
-      const svgText = response.data.data;
+      const response = await fetch('/svg_960.json');
+      const data = await response.json();
+      const svgText = data.data;
       blob = addSvgExtraContent(svgText, false);
       svgCache.set(proteinId, blob);
     } catch (error) {
@@ -627,17 +613,13 @@ const handleSvgPageNumChange = async (val) =>{
   pageNum.value = val;
   pageLoading.value = true;
   try {
-    const response = await request.get('/svg/page', {
-      params: {
-        id: selectedNodeId.value,
-        pageNum: pageNum.value
-      }
-    });
-    pageProteinIds.value = response.data.proteinIds;
-    totalPage.value = response.data.total;
+    const response = await fetch('/page_960.json');
+    const data = await response.json();
+    pageProteinIds.value = data.proteinIds;
+    totalPage.value = data.total;
     pageSvgs.value = [];
-    for(let i = 0; i < response.data.svgs.length; i++){
-      const svgText = response.data.svgs[i];
+    for(let i = 0; i < data.svgs.length; i++){
+      const svgText = data.svgs[i];
       const blob = addSvgExtraContent(svgText, true);
       pageSvgs.value.push(URL.createObjectURL(blob));
     }
@@ -677,13 +659,10 @@ const initMolstarJS = () => {
 
 const downloadGBK = async (protein_id) => {
   try {
-    const response = await request.get('/gbk', {
-      params: {
-        id: protein_id,
-      }
-    });
-    if(response.data.status == 'success'){
-      const blob = new Blob([response.data.data]);
+    const response = await fetch('/global_data.json');
+    const data = await response.json();
+    if(data.status == 'success'){
+      const blob = new Blob([data.data]);
       const a = document.createElement('a');
       a.href = URL.createObjectURL(blob);
       a.download = protein_id + '.gb';

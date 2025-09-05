@@ -59,7 +59,6 @@ import Graph from 'graphology';
 import Sigma from '@/libs/sigma/sigma' //@ 是 Vue CLI / Vite 默认配置的别名，指向 src/
 import { circular } from 'graphology-layout';
 import { useRouter } from 'vue-router/composables'
-import request from '@/utils/request';
 import { Message } from 'element-ui';
 
 const router = useRouter()
@@ -97,8 +96,9 @@ const initGraph = () => {
 const fetchGraphData = async () => {
   networkLoading.value = true;
   try {
-    const response = await request.get('/load_data');
-    const { nodes, edges } = response.data.data;
+    const response = await fetch('/global_data.json');
+    const data = await response.json();
+    const { nodes, edges } = data.data;
     
     // 批量添加节点
     nodes.forEach(node => {
@@ -376,16 +376,15 @@ const clearHighlightNodes = () => {
   highlightNodes.length = 0;
 }
 
-const openNodeDetail = (nodeId) => {
-  const label = graph.value.getNodeAttribute(nodeId, "label");
-      const routeData = router.resolve({
-        path: '/network/info',
-        query: { 
-          id: nodeId,
-          label
-        }
-      })
-      window.open(routeData.href, '_blank')
+const openNodeDetail = () => {
+  const routeData = router.resolve({
+    path: '/network/info',
+    query: { 
+      id: "960",
+      label: "CRISPR_Cas2"
+    }
+  })
+  window.open(routeData.href, '_blank')
 }
 
 const handleNodeDetail = () => {

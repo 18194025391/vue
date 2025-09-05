@@ -12,7 +12,7 @@
         </p>
         <a href="/#/network" target="_blank" class="btn btn-primary">Explore the Atlas →</a>
         <div class="secondary-links">
-            <a href="/#/network/info?id=4830&label=SLFN_AlbA_2&example=1" target="_blank" class="btn btn-secondary">Read the Research Paper ↗</a>
+            <a href="/#/network/info?id=960&label=CRISPR_Cas2" target="_blank" class="btn btn-secondary">Read the Research Paper ↗</a>
             <a href="https://github.com/Bio-bbhe/BioPrinCRISPR" target="_blank" class="btn btn-secondary" >View Code on GitHub ↗</a>
         </div>
       </div>

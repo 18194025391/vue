@@ -1,0 +1,917 @@
+{
+  "data": {
+    "10164": [
+      {
+        "protein_id": "JPYX01000008.1__128253_130136_#7",
+        "source": "PF09827",
+        "target": "PF17222"
+      }
+    ],
+    "10431": [
+      {
+        "protein_id": "CABFVC010000003.1__442569_443878_#8",
+        "source": "PF01867",
+        "target": "PF17294"
+      }
+    ],
+    "10473": [
+      {
+        "protein_id": "CAJLUN010000009.1__23054_23941_#20",
+        "source": "PF09827",
+        "target": "PF03345"
+      }
+    ],
+    "10479": [
+      {
+        "protein_id": "CAAEUV010000820.1__906_1136_#0",
+        "source": "PF01867",
+        "target": "PF15054"
+      }
+    ],
+    "10566": [
+      {
+        "protein_id": "CAAFQC010001051.1__5687_6101_#5",
+        "source": "PF01867",
+        "target": "PF07541"
+      }
+    ],
+    "10977": [
+      {
+        "protein_id": "CABJAO010000012.1__57545_57970_#14",
+        "source": "PF01867",
+        "target": "PF16457"
+      }
+    ],
+    "11016": [
+      {
+        "protein_id": "JAHAYP010000190.1__16_1218_#0",
+        "source": "PF09827",
+        "target": "PF03921"
+      }
+    ],
+    "11391": [
+      {
+        "protein_id": "FR900073.1__57_696_#1",
+        "source": "PF08567",
+        "target": "PF01867"
+      }
+    ],
+    "11457": [
+      {
+        "protein_id": "JAFWBM010000006.1__373_1988_#1",
+        "source": "PF03172",
+        "target": "PF01867"
+      }
+    ],
+    "11736": [
+      {
+        "protein_id": "JADMWW010000008.1__37483_39436_#14",
+        "source": "PF09827",
+        "target": "PF20072"
+      }
+    ],
+    "11799": [
+      {
+        "protein_id": "DDPT01000031.1__74588_75744_#9",
+        "source": "PF01867",
+        "target": "PF11263"
+      }
+    ],
+    "11859": [
+      {
+        "protein_id": "CAINZM010001076.1__3_275_#1",
+        "source": "PF01867",
+        "target": "PF13446"
+      }
+    ],
+    "11883": [
+      {
+        "protein_id": "CAJUDO010000044.1__6589_7415_#1",
+        "source": "PF01867",
+        "target": "PF01410"
+      }
+    ],
+    "12000": [
+      {
+        "protein_id": "JAGGRE010000005.1__290049_290744_#6",
+        "source": "PF09827",
+        "target": "PF03673"
+      }
+    ],
+    "12186": [
+      {
+        "protein_id": "CAJLBC010000005.1__117612_119104_#8",
+        "source": "PF15997",
+        "target": "PF01867"
+      },
+      {
+        "protein_id": "CAJLBC010000005.1__117612_119104_#8",
+        "source": "PF01867",
+        "target": "PF15997"
+      }
+    ],
+    "1242": [
+      {
+        "protein_id": "AAQNBR010000002.1__419273_419850_#6",
+        "source": "PF08798",
+        "target": "PF01867"
+      }
+    ],
+    "12867": [
+      {
+        "protein_id": "CP009682.1__1028766_1029722_#12",
+        "source": "PF09827",
+        "target": "PF15507"
+      }
+    ],
+    "12876": [
+      {
+        "protein_id": "QTXB01000009.1__76090_76455_#5",
+        "source": "PF18729",
+        "target": "PF01867"
+      }
+    ],
+    "12894": [
+      {
+        "protein_id": "JAESJE010000074.1__10314_12843_#8",
+        "source": "PF01867",
+        "target": "PF20979"
+      }
+    ],
+    "13023": [
+      {
+        "protein_id": "RBJC01000010.1__32643_33272_#7",
+        "source": "PF01867",
+        "target": "PF21378"
+      }
+    ],
+    "13119": [
+      {
+        "protein_id": "JADTNK010000009.1__48543_49710_#9",
+        "source": "PF01867",
+        "target": "PF08180"
+      }
+    ],
+    "13341": [
+      {
+        "protein_id": "CP062471.1__818590_818854_#10",
+        "source": "PF21758",
+        "target": "PF09876"
+      }
+    ],
+    "13344": [
+      {
+        "protein_id": "CP062471.1__818590_818854_#10",
+        "source": "PF09876",
+        "target": "PF01182"
+      },
+      {
+        "protein_id": "CP062471.1__818590_818854_#10",
+        "source": "PF21758",
+        "target": "PF09876"
+      },
+      {
+        "protein_id": "DJUR01000008.1__97400_99348_#8",
+        "source": "PF09827",
+        "target": "PF09876"
+      }
+    ],
+    "13374": [
+      {
+        "protein_id": "DITA01000022.1__17289_18510_#6",
+        "source": "PF01867",
+        "target": "PF19651"
+      }
+    ],
+    "13857": [
+      {
+        "protein_id": "DCCY01000041.1__49864_50493_#7",
+        "source": "PF16453",
+        "target": "PF09827"
+      }
+    ],
+    "13938": [
+      {
+        "protein_id": "JACUTU010000002.1__59963_60329_#7",
+        "source": "PF01867",
+        "target": "PF08998"
+      }
+    ],
+    "14067": [
+      {
+        "protein_id": "JQLL01000001.1__1835487_1839766_#5",
+        "source": "PF01867",
+        "target": "PF06556"
+      }
+    ],
+    "14073": [
+      {
+        "protein_id": "QFOH01000006.1__164696_166494_#7",
+        "source": "PF19243",
+        "target": "PF01867"
+      },
+      {
+        "protein_id": "PXJI01000213.1__3825_4342_#3",
+        "source": "PF01867",
+        "target": "PF19243"
+      }
+    ],
+    "14316": [
+      {
+        "protein_id": "LION01000002.1__602497_602938_#8",
+        "source": "PF06243",
+        "target": "PF01867"
+      }
+    ],
+    "14520": [
+      {
+        "protein_id": "JAFPYV010000016.1__17472_18233_#5",
+        "source": "PF01867",
+        "target": "PF19163"
+      }
+    ],
+    "1470": [
+      {
+        "protein_id": "JABXFW010000001.1__2684359_2684593_#10",
+        "source": "PF01867",
+        "target": "PF11970"
+      }
+    ],
+    "1896": [],
+    "2235": [
+      {
+        "protein_id": "JAAIUB010000004.1__114689_116015_#7",
+        "source": "PF14504",
+        "target": "PF17953"
+      }
+    ],
+    "315": [
+      {
+        "protein_id": "LION01000002.1__602497_602938_#8",
+        "source": "PF06243",
+        "target": "PF01867"
+      },
+      {
+        "protein_id": "QFOH01000006.1__164696_166494_#7",
+        "source": "PF19243",
+        "target": "PF01867"
+      },
+      {
+        "protein_id": "QTXB01000009.1__76090_76455_#5",
+        "source": "PF18729",
+        "target": "PF01867"
+      },
+      {
+        "protein_id": "CAJLBC010000005.1__117612_119104_#8",
+        "source": "PF15997",
+        "target": "PF01867"
+      },
+      {
+        "protein_id": "JAFWBM010000006.1__373_1988_#1",
+        "source": "PF03172",
+        "target": "PF01867"
+      },
+      {
+        "protein_id": "FR900073.1__57_696_#1",
+        "source": "PF08567",
+        "target": "PF01867"
+      },
+      {
+        "protein_id": "JAHJHR010000013.1__35_1527_#1",
+        "source": "PF08010",
+        "target": "PF01867"
+      },
+      {
+        "protein_id": "BAKX01000004.1__133183_133444_#10",
+        "source": "PF00680",
+        "target": "PF01867"
+      },
+      {
+        "protein_id": "RJNK01000003.1__111111_113642_#7",
+        "source": "PF10148",
+        "target": "PF01867"
+      },
+      {
+        "protein_id": "JAGVVF010000057.1__7618_8091_#5",
+        "source": "PF00078",
+        "target": "PF01867"
+      },
+      {
+        "protein_id": "AAQNBR010000002.1__419273_419850_#6",
+        "source": "PF08798",
+        "target": "PF01867"
+      },
+      {
+        "protein_id": "DABVBC010000009.1__96341_96856_#13",
+        "source": "PF18019",
+        "target": "PF01867"
+      },
+      {
+        "protein_id": "JAFPYV010000016.1__17472_18233_#5",
+        "source": "PF01867",
+        "target": "PF19163"
+      },
+      {
+        "protein_id": "PXJI01000213.1__3825_4342_#3",
+        "source": "PF01867",
+        "target": "PF19243"
+      },
+      {
+        "protein_id": "JQLL01000001.1__1835487_1839766_#5",
+        "source": "PF01867",
+        "target": "PF06556"
+      },
+      {
+        "protein_id": "QMOB01000034.1__436_8310_#1",
+        "source": "PF01867",
+        "target": "PF04434"
+      },
+      {
+        "protein_id": "JACUTU010000002.1__59963_60329_#7",
+        "source": "PF01867",
+        "target": "PF08998"
+      },
+      {
+        "protein_id": "DHTX01000066.1__109071_109648_#5",
+        "source": "PF01867",
+        "target": "PF16044"
+      },
+      {
+        "protein_id": "JADFCU010000012.1__4035_4307_#5",
+        "source": "PF01867",
+        "target": "PF14306"
+      },
+      {
+        "protein_id": "RJNK01000003.1__111111_113642_#7",
+        "source": "PF01867",
+        "target": "PF10148"
+      },
+      {
+        "protein_id": "DITA01000022.1__17289_18510_#6",
+        "source": "PF01867",
+        "target": "PF19651"
+      },
+      {
+        "protein_id": "JADTNK010000009.1__48543_49710_#9",
+        "source": "PF01867",
+        "target": "PF08180"
+      },
+      {
+        "protein_id": "RBJC01000010.1__32643_33272_#7",
+        "source": "PF01867",
+        "target": "PF21378"
+      },
+      {
+        "protein_id": "JAESJE010000074.1__10314_12843_#8",
+        "source": "PF01867",
+        "target": "PF20979"
+      },
+      {
+        "protein_id": "CAJUDO010000044.1__6589_7415_#1",
+        "source": "PF01867",
+        "target": "PF01410"
+      },
+      {
+        "protein_id": "JAFLDO010000029.1__31069_39879_#7",
+        "source": "PF01867",
+        "target": "PF19833"
+      },
+      {
+        "protein_id": "CAJLBC010000005.1__117612_119104_#8",
+        "source": "PF01867",
+        "target": "PF15997"
+      },
+      {
+        "protein_id": "CAINZM010001076.1__3_275_#1",
+        "source": "PF01867",
+        "target": "PF13446"
+      },
+      {
+        "protein_id": "DDPT01000031.1__74588_75744_#9",
+        "source": "PF01867",
+        "target": "PF11263"
+      },
+      {
+        "protein_id": "DECZ01000032.1__1406_1731_#0",
+        "source": "PF01867",
+        "target": "PF18299"
+      },
+      {
+        "protein_id": "CABJAO010000012.1__57545_57970_#14",
+        "source": "PF01867",
+        "target": "PF16457"
+      },
+      {
+        "protein_id": "CAAFQC010001051.1__5687_6101_#5",
+        "source": "PF01867",
+        "target": "PF07541"
+      },
+      {
+        "protein_id": "CAAEUV010000820.1__906_1136_#0",
+        "source": "PF01867",
+        "target": "PF15054"
+      },
+      {
+        "protein_id": "JSEB01000005.1__100152_100913_#14",
+        "source": "PF01867",
+        "target": "PF11637"
+      },
+      {
+        "protein_id": "CABFVC010000003.1__442569_443878_#8",
+        "source": "PF01867",
+        "target": "PF17294"
+      },
+      {
+        "protein_id": "BOJW01000006.1__100151_101177_#3",
+        "source": "PF01867",
+        "target": "PF07940"
+      },
+      {
+        "protein_id": "JAAEVZ010000009.1__28681_30419_#8",
+        "source": "PF01867",
+        "target": "PF09707"
+      },
+      {
+        "protein_id": "MIYH01000001.1__167240_167474_#5",
+        "source": "PF01867",
+        "target": "PF11929"
+      },
+      {
+        "protein_id": "BHYZ01000009.1__8078_8641_#9",
+        "source": "PF01867",
+        "target": "PF09062"
+      },
+      {
+        "protein_id": "AUIQ01000063.1__10006_10521_#7",
+        "source": "PF01867",
+        "target": "PF18444"
+      },
+      {
+        "protein_id": "CP061474.1__3089496_3091306_#6",
+        "source": "PF01867",
+        "target": "PF16695"
+      },
+      {
+        "protein_id": "MSTR01000002.1__34552_35641_#8",
+        "source": "PF01867",
+        "target": "PF12603"
+      },
+      {
+        "protein_id": "JAFEER010000038.1__6279_7434_#6",
+        "source": "PF01867",
+        "target": "PF11876"
+      },
+      {
+        "protein_id": "LMKC01000002.1__539060_542870_#8",
+        "source": "PF01867",
+        "target": "PF08010"
+      },
+      {
+        "protein_id": "JADRGD010000002.1__3331_4626_#9",
+        "source": "PF01867",
+        "target": "PF05582"
+      },
+      {
+        "protein_id": "MU242220.1__33747_36032_#11",
+        "source": "PF01867",
+        "target": "PF11149"
+      },
+      {
+        "protein_id": "JAAACW010000010.1__47761_48389_#6",
+        "source": "PF01867",
+        "target": "PF03076"
+      },
+      {
+        "protein_id": "JAHBGA010000006.1__1344222_1345577_#8",
+        "source": "PF01867",
+        "target": "PF18381"
+      },
+      {
+        "protein_id": "CP085955.1__993855_994882_#14",
+        "source": "PF01867",
+        "target": "PF11111"
+      },
+      {
+        "protein_id": "DVII01000060.1__4834_5233_#6",
+        "source": "PF01867",
+        "target": "PF12495"
+      },
+      {
+        "protein_id": "JAFCAF010000009.1__137889_139418_#5",
+        "source": "PF01867",
+        "target": "PF03049"
+      },
+      {
+        "protein_id": "JABXFW010000001.1__2684359_2684593_#10",
+        "source": "PF01867",
+        "target": "PF11970"
+      },
+      {
+        "protein_id": "MNTQ01000017.1__86620_87247_#9",
+        "source": "PF01867",
+        "target": "PF09827"
+      },
+      {
+        "protein_id": "JAARZF010000004.1__4044_4803_#5",
+        "source": "PF01867",
+        "target": "PF06395"
+      },
+      {
+        "protein_id": "AAAMSQ010000007.1__38014_39382_#8",
+        "source": "PF01867",
+        "target": "PF18567"
+      },
+      {
+        "protein_id": "JAFAZD010000348.1__90794_91613_#7",
+        "source": "PF01867",
+        "target": "PF01867"
+      }
+    ],
+    "330": [
+      {
+        "protein_id": "JAAEVZ010000009.1__28681_30419_#8",
+        "source": "PF01867",
+        "target": "PF09707"
+      }
+    ],
+    "3315": [
+      {
+        "protein_id": "JAFCAF010000009.1__137889_139418_#5",
+        "source": "PF01867",
+        "target": "PF03049"
+      }
+    ],
+    "4011": [
+      {
+        "protein_id": "JENJ01000019.1__749_3470_#1",
+        "source": "PF09827",
+        "target": "PF20439"
+      }
+    ],
+    "4086": [
+      {
+        "protein_id": "JABCUP010000031.1__4980_6167_#2",
+        "source": "PF20803",
+        "target": "PF09827"
+      }
+    ],
+    "4443": [
+      {
+        "protein_id": "DVII01000060.1__4834_5233_#6",
+        "source": "PF01867",
+        "target": "PF12495"
+      }
+    ],
+    "4446": [
+      {
+        "protein_id": "CP085955.1__993855_994882_#14",
+        "source": "PF01867",
+        "target": "PF11111"
+      }
+    ],
+    "4515": [
+      {
+        "protein_id": "JAHBGA010000006.1__1344222_1345577_#8",
+        "source": "PF01867",
+        "target": "PF18381"
+      }
+    ],
+    "4569": [
+      {
+        "protein_id": "JAAACW010000010.1__47761_48389_#6",
+        "source": "PF01867",
+        "target": "PF03076"
+      }
+    ],
+    "4617": [
+      {
+        "protein_id": "JAFLDO010000029.1__31069_39879_#7",
+        "source": "PF01867",
+        "target": "PF19833"
+      }
+    ],
+    "4950": [
+      {
+        "protein_id": "JAGVVF010000057.1__7618_8091_#5",
+        "source": "PF00078",
+        "target": "PF01867"
+      }
+    ],
+    "5010": [
+      {
+        "protein_id": "CP002391.1__2192491_2193845_#8",
+        "source": "PF09827",
+        "target": "PF16012"
+      }
+    ],
+    "5058": [
+      {
+        "protein_id": "MU242220.1__33747_36032_#11",
+        "source": "PF01867",
+        "target": "PF11149"
+      }
+    ],
+    "5529": [
+      {
+        "protein_id": "RJNK01000003.1__111111_113642_#7",
+        "source": "PF10148",
+        "target": "PF01867"
+      },
+      {
+        "protein_id": "RJNK01000003.1__111111_113642_#7",
+        "source": "PF01867",
+        "target": "PF10148"
+      }
+    ],
+    "5700": [
+      {
+        "protein_id": "KB291531.1__11201_11475_#7",
+        "source": "PF09827",
+        "target": "PF04798"
+      }
+    ],
+    "5709": [
+      {
+        "protein_id": "BAKX01000004.1__133183_133444_#10",
+        "source": "PF00680",
+        "target": "PF01867"
+      }
+    ],
+    "5826": [
+      {
+        "protein_id": "JAAIUB010000004.1__114689_116015_#7",
+        "source": "PF14504",
+        "target": "PF17953"
+      },
+      {
+        "protein_id": "AUAW01000008.1__57226_57987_#10",
+        "source": "PF09827",
+        "target": "PF14504"
+      }
+    ],
+    "6246": [
+      {
+        "protein_id": "BOJW01000006.1__100151_101177_#3",
+        "source": "PF01867",
+        "target": "PF07940"
+      }
+    ],
+    "6288": [
+      {
+        "protein_id": "CP062471.1__818590_818854_#10",
+        "source": "PF09876",
+        "target": "PF01182"
+      }
+    ],
+    "6573": [
+      {
+        "protein_id": "JSEB01000005.1__100152_100913_#14",
+        "source": "PF01867",
+        "target": "PF11637"
+      }
+    ],
+    "6579": [
+      {
+        "protein_id": "JADRGD010000002.1__3331_4626_#9",
+        "source": "PF01867",
+        "target": "PF05582"
+      }
+    ],
+    "6645": [
+      {
+        "protein_id": "JAHJHR010000013.1__35_1527_#1",
+        "source": "PF08010",
+        "target": "PF01867"
+      },
+      {
+        "protein_id": "LMKC01000002.1__539060_542870_#8",
+        "source": "PF01867",
+        "target": "PF08010"
+      }
+    ],
+    "6657": [
+      {
+        "protein_id": "AOTM01000269.1__59_1148_#0",
+        "source": "PF09827",
+        "target": "PF16232"
+      }
+    ],
+    "702": [
+      {
+        "protein_id": "AAAMSQ010000007.1__38014_39382_#8",
+        "source": "PF01867",
+        "target": "PF18567"
+      }
+    ],
+    "7194": [
+      {
+        "protein_id": "JAFEER010000038.1__6279_7434_#6",
+        "source": "PF01867",
+        "target": "PF11876"
+      }
+    ],
+    "7338": [
+      {
+        "protein_id": "MSTR01000002.1__34552_35641_#8",
+        "source": "PF01867",
+        "target": "PF12603"
+      }
+    ],
+    "741": [
+      {
+        "protein_id": "JAARZF010000004.1__4044_4803_#5",
+        "source": "PF01867",
+        "target": "PF06395"
+      }
+    ],
+    "7476": [
+      {
+        "protein_id": "CP061474.1__3089496_3091306_#6",
+        "source": "PF01867",
+        "target": "PF16695"
+      }
+    ],
+    "7914": [
+      {
+        "protein_id": "NSDC01000029.1__71622_72030_#6",
+        "source": "PF09827",
+        "target": "PF19973"
+      }
+    ],
+    "8082": [
+      {
+        "protein_id": "AUIQ01000063.1__10006_10521_#7",
+        "source": "PF01867",
+        "target": "PF18444"
+      }
+    ],
+    "8199": [
+      {
+        "protein_id": "DHTX01000066.1__109071_109648_#5",
+        "source": "PF01867",
+        "target": "PF16044"
+      }
+    ],
+    "8511": [
+      {
+        "protein_id": "BHYZ01000009.1__8078_8641_#9",
+        "source": "PF01867",
+        "target": "PF09062"
+      }
+    ],
+    "8634": [
+      {
+        "protein_id": "DECZ01000032.1__1406_1731_#0",
+        "source": "PF01867",
+        "target": "PF18299"
+      }
+    ],
+    "8664": [
+      {
+        "protein_id": "MKTS01000003.1__46023_47509_#7",
+        "source": "PF09827",
+        "target": "PF16256"
+      }
+    ],
+    "8724": [
+      {
+        "protein_id": "QMOB01000034.1__436_8310_#1",
+        "source": "PF01867",
+        "target": "PF04434"
+      }
+    ],
+    "8856": [
+      {
+        "protein_id": "KV811162.1__248009_248337_#9",
+        "source": "PF09827",
+        "target": "PF20679"
+      }
+    ],
+    "888": [
+      {
+        "protein_id": "DABVBC010000009.1__96341_96856_#13",
+        "source": "PF18019",
+        "target": "PF01867"
+      }
+    ],
+    "909": [
+      {
+        "protein_id": "JADFCU010000012.1__4035_4307_#5",
+        "source": "PF01867",
+        "target": "PF14306"
+      }
+    ],
+    "9561": [
+      {
+        "protein_id": "LAYF01000003.1__61712_63294_#11",
+        "source": "PF09827",
+        "target": "PF06014"
+      }
+    ],
+    "9597": [
+      {
+        "protein_id": "MIYH01000001.1__167240_167474_#5",
+        "source": "PF01867",
+        "target": "PF11929"
+      }
+    ],
+    "960": [
+      {
+        "protein_id": "DCCY01000041.1__49864_50493_#7",
+        "source": "PF16453",
+        "target": "PF09827"
+      },
+      {
+        "protein_id": "JABCUP010000031.1__4980_6167_#2",
+        "source": "PF20803",
+        "target": "PF09827"
+      },
+      {
+        "protein_id": "DJUR01000008.1__97400_99348_#8",
+        "source": "PF09827",
+        "target": "PF09876"
+      },
+      {
+        "protein_id": "CP009682.1__1028766_1029722_#12",
+        "source": "PF09827",
+        "target": "PF15507"
+      },
+      {
+        "protein_id": "LAYF01000003.1__61712_63294_#11",
+        "source": "PF09827",
+        "target": "PF06014"
+      },
+      {
+        "protein_id": "JAGGRE010000005.1__290049_290744_#6",
+        "source": "PF09827",
+        "target": "PF03673"
+      },
+      {
+        "protein_id": "JADMWW010000008.1__37483_39436_#14",
+        "source": "PF09827",
+        "target": "PF20072"
+      },
+      {
+        "protein_id": "JAHAYP010000190.1__16_1218_#0",
+        "source": "PF09827",
+        "target": "PF03921"
+      },
+      {
+        "protein_id": "CAJLUN010000009.1__23054_23941_#20",
+        "source": "PF09827",
+        "target": "PF03345"
+      },
+      {
+        "protein_id": "JPYX01000008.1__128253_130136_#7",
+        "source": "PF09827",
+        "target": "PF17222"
+      },
+      {
+        "protein_id": "KV811162.1__248009_248337_#9",
+        "source": "PF09827",
+        "target": "PF20679"
+      },
+      {
+        "protein_id": "MKTS01000003.1__46023_47509_#7",
+        "source": "PF09827",
+        "target": "PF16256"
+      },
+      {
+        "protein_id": "NSDC01000029.1__71622_72030_#6",
+        "source": "PF09827",
+        "target": "PF19973"
+      },
+      {
+        "protein_id": "AOTM01000269.1__59_1148_#0",
+        "source": "PF09827",
+        "target": "PF16232"
+      },
+      {
+        "protein_id": "AUAW01000008.1__57226_57987_#10",
+        "source": "PF09827",
+        "target": "PF14504"
+      },
+      {
+        "protein_id": "KB291531.1__11201_11475_#7",
+        "source": "PF09827",
+        "target": "PF04798"
+      },
+      {
+        "protein_id": "CP002391.1__2192491_2193845_#8",
+        "source": "PF09827",
+        "target": "PF16012"
+      },
+      {
+        "protein_id": "JENJ01000019.1__749_3470_#1",
+        "source": "PF09827",
+        "target": "PF20439"
+      },
+      {
+        "protein_id": "MNTQ01000017.1__86620_87247_#9",
+        "source": "PF01867",
+        "target": "PF09827"
+      }
+    ]
+  },
+  "status": "success"
+}
